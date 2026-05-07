@@ -64,7 +64,7 @@ The construction has two stages and is fit entirely on the training window — a
 For each of N trials, draw a 6-vector from a Dirichlet distribution (positive, sums to 1). Multiply each factor's z-scores by its weight, sum across factors to get a composite score per stock, rank, take the top 45, and form an equal-weighted monthly portfolio. Score the trial by annualized active return on the training window:
 
 $$
-\text{ann\_active\_return}(r, b) \;=\; 1200 \cdot \overline{\,r_t - b_t\,}
+\mathrm{ann\text{-}active\text{-}return}(r,\, b) = 1200 \cdot \overline{r_t - b_t}
 $$
 
 ### Stage 2: Stability via top-K averaging
