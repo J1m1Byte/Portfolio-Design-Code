@@ -1,5 +1,5 @@
 # Active Portfolio Construction with Value Factors
-## MFIN 5600 — US Equity Sleeve Report
+## MFIN 5600: US Equity Sleeve Report
 
 ---
 
