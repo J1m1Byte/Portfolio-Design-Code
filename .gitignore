@@ -123,6 +123,3 @@ md_token
 src/archive/
 notebook/model/archive/
 notebook/data/archive/
-
-# Reports
-/report/
